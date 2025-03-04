@@ -1,1 +1,3 @@
-# pulseos
+# PulseOS
+
+A small, basic OS
