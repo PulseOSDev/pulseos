@@ -1,3 +1,3 @@
 # PulseOS
 
-A small, basic OS
+A small, basic OS which does nothing..
