@@ -18,6 +18,8 @@ pulseOS v0.1 (KRNL v0.95 (B951)): minor Changes: added an sysPanic for system cr
 KRNL v0.85 (B851): added an "os" which communicates to the Kernel via a bridge
 
 pulseOS 0.25 (Build: OSB-252.dev/krnl 0.95-dev): terminal /w some hardcoded commands
+
+# BUILDSCRIPT
 =======
 Run "build.py krnl"
 Then run "build.py run"
