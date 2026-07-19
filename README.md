@@ -7,6 +7,7 @@ A small, basic OS which does nothing..
 
 Requirements:  Python 3.13.3, i686-elf-gcc, i686-elf-as, (QEMU or any other Virtualization Software)
 
+
 Run "build.py all"
 Then run "build.py run"
 
@@ -15,3 +16,9 @@ Then run "build.py run"
 pulseOS v0.1 (KRNL v0.95 (B951)): minor Changes: added an sysPanic for system crashes
 
 KRNL v0.85 (B851): added an "os" which communicates to the Kernel via a bridge
+
+pulseOS 0.25 (Build: OSB-252.dev/krnl 0.95-dev): terminal /w some hardcoded commands
+=======
+Run "build.py krnl"
+Then run "build.py run"
+
