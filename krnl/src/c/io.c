@@ -121,3 +121,10 @@ void panic_clear() {
 		}
 	}
 }
+
+
+void invisiblewritestring(char* str) {
+	terminal_color = vga_entry_color(VGA_COLOR_BLACK, VGA_COLOR_BLACK);
+	terminal_writestring(str);
+	terminal_color = vga_entry_color(VGA_COLOR_LIGHT_GREY, VGA_COLOR_BLACK);
+}
